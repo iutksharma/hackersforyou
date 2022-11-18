@@ -30,7 +30,7 @@ nav h1{
     font-size: 40px;
 }
 nav h1 span{
-    color: #ff004f;
+    color:  #096990;
 }
 
 nav ul li{
@@ -48,7 +48,7 @@ nav ul li a::after{
     content: '';
     width: 0;
 height: 3px;
-background: #ff004f;
+background:  #096990;
 position: absolute;
 left: 0;
 bottom: -6px;
@@ -66,7 +66,7 @@ font-size: 60px;
 margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color:  #096990;
 }
 
 /* --------------- about ------------- */
@@ -110,7 +110,7 @@ margin-top: 20px;
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background:  #096990;
 position: absolute;
 left: 0;
 bottom: -8px;
@@ -169,7 +169,7 @@ transition: 0.5s;
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background:  #096990;
     transform: translateX(10px);
 }
 
@@ -219,7 +219,7 @@ transition: 0.5s;
 }
 .layer a{
     margin: 20px;
-    color: #ff004f;
+    color:  #096990;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -248,7 +248,7 @@ transform: scale(1.1);
    transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background:  #096990;
 }
 
 /* ----------- contact ---------- */
@@ -263,7 +263,7 @@ transform: scale(1.1);
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color:  #096990;
     margin-right: 15px;
     font-size: 20px;
 }
@@ -279,12 +279,12 @@ transform: scale(1.1);
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color:  #096990;
     transform: translate(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background:  #096990;
 }
 .contact-right form{
     width: 100%;
@@ -317,7 +317,7 @@ display: none;
         font-size: 20px;
         }
         nav ul{
-            background: #ff004f;
+            background:  #096990;
             position: fixed;
             top: 0;
             right: -200px;
