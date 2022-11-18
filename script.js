@@ -22,7 +22,7 @@ function closemenu(){
     sidemenu.style.right = "-200px"
 }
 
-//contact 
+//contact - backend
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbyZzMwhRh1DNkfFvn6bko_2FwVA-Dk0qV1YZHEPlwQzlQavmRgcOurTTh0JOuxnYj2wuA/exec'
 const form = document.forms['submit-to-google-sheet']
@@ -38,4 +38,16 @@ form.addEventListener('submit', e => {
         form.reset();
     })
     .catch(error => console.error('Error!', error.message))
+})
+
+// animation 
+
+$('.header-text h1').textillate({
+	in:{
+		effect:'bounceIn'
+	},
+	loop : true,
+	out:{
+		effect:'fadeInRight'
+	}
 })
