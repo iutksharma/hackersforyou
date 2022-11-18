@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Porfolio Webiste</title>
+    <title>Document</title>
     <script src="https://kit.fontawesome.com/216519b87f.js" crossorigin="anonymous"></script>
+   
 </head>
 <body>
     <div id="header">
 <div class="container">
     <nav>
-        <!-- <img src="images/logo.png" class="logo"> -->
-        <h1>Port<span>folio</span></h1>
+        <div class="logo-title">
+            <img src="images/h4ulogo.jpeg" alt="">
+             <h1><span>H</span>ackers<span>F</span>or<span>Y</span>ou</h1>
+        </div>
         <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
     <div class="header-text">
-        <p>Developer at HackersForYou</p>
-        <h1>Hi, I'm <span>Utkarsh Sharma</span><br> </h1>
+        <h1>Welcome to <span style="color: green;">HackersForYou</span></h1>
+        <p>Hello Dear Sir/Madam, heartly Welcome to our platform which is dedicated to<br>
+            school and college students to learn and explore Cyber Security and Ethical Hacking<br> from the experts. We are experts in conduting & organizing seminars, webinars,
+            <br> workshops, classroom program & online tainings and classes. <br>Thank You : )</p>
     </div>
 </div>
     </div>
@@ -35,35 +40,35 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img height="500" src="images/user.jpeg">
+                    <img height="500" src="images/user.jpg">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me </h1>
-                    <p>I'm pursuing BTech Degree in Computer Science & Engineering from Rajiv Gandhi Proudyogiki Vishwavidayalya at Sagar Institute of Research & Technology, Currently I'm in 3rd year.</p>
+                    <h1 class="sub-title">About <span>HackersForYou </span> </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus atque nisi voluptas velit accusantium officiis harum minus quidem rerum, unde ducimus laborum, assumenda cupiditate natus enim, aliquam sit? Doloremque ratione accusantium iste deleniti aspernatur in quibusdam recusandae quidem earum, obcaecati temporibus libero similique quas cupiditate ad laborum. Esse, voluptatem?</p>
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('courses')">Courses</p>
+                        <p class="tab-links" onclick="opentab('webinars')">Webinars</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
                     </div>
-                    <div class="tab-contents active-tab" id="skills">
+                    <div class="tab-contents active-tab" id="courses">
                         <ul>
-                            <li><span>Web Development</span><br>1.Front-End Development <br> 2.Back-End Development <br> 3.React Basics</li>
-                            <li><span>Andriod Development</span><br>App Interfaces</li>
-                            <li><span>JAVA / DSA</span><br>Core JAVA with Data Structure & Algorithms</li>
+                            <li><span>Cloud Computing</span><br>1. Software as a Services <br> 2.Computing platform <br> 3.Virtualization</li>
+                            <li><span>Security</span><br> Computing Security</li>
+                            <li><span>Risk Management</span><br>Learn about security of network</li>
                         </ul>
                     </div>
-                    <div class="tab-contents" id="experience">
+                    <div class="tab-contents" id="webinars">
                         <ul>
-                            <li><span>Developer</span><br>HackersForYou</li>
-                            <!-- <li><span>dhfk</span><br>Designing Web/App interfaces</li>
-                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li> -->
+                            <li><span>SIRT Bhopal</span><br>Cyber Security</li>
+                            <li><span>Upcoming Webinarx</span><br>Networking</li> 
+                            <!-- <li><span>UI?UX</span><br>Designing Web/App interfaces</li>  -->
                         </ul>
                     </div>
-                    <div class="tab-contents" id="education">
+                    <div class="tab-contents" id="internship">
                         <ul>
-                            <li><span>Sagar Institue of Research & Technology , Bhopal (MP)</span><br>Btech in Computer Science & Engineering <br> Batch : 2020 - 2024</li>
-                            <li><span>Rajiv Gandhi Poudyogiki Vishwavidyalaya , Bhopal (MP)</span> <br> Btech in Computer Science & Engineering <br> Batch : 2020 - 2024<br></li>
-                            <!-- <li><span>UI?UX</span><br>Designing Web/App interfaces</li> -->
+                            <li><span>Collaboration with CyberHawk</span><br>Internship Program <br></li>
+                            <!-- <li><span>Rajiv Gandhi Poudyogiki Vishwavidyalaya , Bhopal (MP)</span> <br> Btech in Computer Science & Engineering <br> Batch : 2020 - 2024<br></li> 
+                             <li><span>UI?UX</span><br>Designing Web/App interfaces</li> -->
                         </ul>
                     </div>
                 </div>
@@ -74,35 +79,27 @@
 <!-- -------------------- services ------------------ -->
 <div id="services">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
+        <h1 class="sub-title">Our Services</h1>
         <div class="services-list">
             <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>No services</h2>
-                <p>No services are available now, <br> Thank You </p>
+                <h2>Our Mission</h2>
+                <p>Our mission is to provide the knowledge and skills in Cyber Security and Ethical Hacking. You need to be able to acheive the goal that you deserve. Our main goal and mission to provide education all over the globe.<br><br> Thank You </p>   
                 <a href="#">learn more</a>
             </div>
             <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>No Services</h2>
-                <p>No services are available now, <br> Thank You</p>
-                <a href="#">learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>No services</h2>
-                <p>No services are available now, <br> Thank You</p>
+                <h2>Our Instructor</h2>
+                <p>We are experts in conducting & organizing seminars, webinars, workshops, classroom & online training and classes. We empower the students to build a safer cyber world so they can get out easily from the cyber crimes.<br><br> Thank You</p>
                 <a href="#">learn more</a>
             </div>
         </div>
     </div>
 </div>
 
-<!-- ------------------ portfolio ----------------->
+<!-- ------------------ blog ----------------->
 
-<div id="portfolio">
+<div id="blog">
     <div class="container">
-        <h1 class="sub-title">My work</h1>
+        <h1 class="sub-title">Our work</h1>
         <div class="work-list">
             <div class="work">
                 <img src="images/work-1.png" alt="">
@@ -139,15 +136,15 @@
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i>iutksharma@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>7372880669</p>
+                <p><i class="fa-solid fa-envelope"></i>hackersforyou@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8271652256</p>
                 <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/iutksharma/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/utkarsh-sharma-060631222/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100077136890646"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/hackers.4.u?utm_medium=copy_link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/hackersforyou"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtube.com/channel/UCp8j081fGKSloLFccfukl6A"><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+                <a href="images/my-cv.pdf" download="" class="btn btn2">Download Document</a>
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
@@ -162,6 +159,20 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"
+        integrity="sha512-VJ/iYbiu1eJ6yLimfTi65t2R9TFcG5D9X8ZCfbbEFhTfPnKJh8byoKXEawi5ScJZBYL1eiirL1+MczZDx0Tz9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
+        integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"
+        integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
+        integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>
