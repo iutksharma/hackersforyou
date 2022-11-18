@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/216519b87f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <!-- <img src="images/logo.png" class="logo"> -->
+        <h1>Port<span>folio</span></h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Developer at HackersForYou</p>
+        <h1>Hi, I'm <span>Utkarsh Sharma</span><br> </h1>
+    </div>
+</div>
+    </div>
+<!-- ----------- about ----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img height="500" src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repellendus atque nisi voluptas velit accusantium officiis harum minus quidem rerum, unde ducimus laborum, assumenda cupiditate natus enim, aliquam sit? Doloremque ratione accusantium iste deleniti aspernatur in quibusdam recusandae quidem earum, obcaecati temporibus libero similique quas cupiditate ad laborum. Esse, voluptatem?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>1.Front-End Development <br> 2.Back-End Development <br> 3.React Basics</li>
+                            <li><span>Andriod Development</span><br>App Interfaces</li>
+                            <li><span>JAVA / DSA</span><br>Core JAVA with Data Structure & Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Developer</span><br>HackersForYou</li>
+                            <!-- <li><span>dhfk</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web/App interfaces</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Sagar Institue of Research & Technology , Bhopal (MP)</span><br>Btech in Computer Science & Engineering <br> Batch : 2020 - 2024</li>
+                            <li><span>Rajiv Gandhi Poudyogiki Vishwavidyalaya , Bhopal (MP)</span> <br> Btech in Computer Science & Engineering <br> Batch : 2020 - 2024<br></li>
+                            <!-- <li><span>UI?UX</span><br>Designing Web/App interfaces</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------- services ------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>No services</h2>
+                <p>No services are available now, <br> Thank You </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>No Services</h2>
+                <p>No services are available now, <br> Thank You</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>No services</h2>
+                <p>No services are available now, <br> Thank You</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------ portfolio ----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media Website</h3>
+            <p>Social media website will be uploaded soon</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+            <p>music app will be uploaded soon </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Travel Project</h3>
+            <p>Social media website will be uploaded soon </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ---------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>iutksharma@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7372880669</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/iutksharma/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/utkarsh-sharma-060631222/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
