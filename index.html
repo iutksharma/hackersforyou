@@ -5,6 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+     <link rel="icon" href="images/h4ulogo.jpeg">
+    <title>HackersForYou</title>
+    <script src="https://kit.fontawesome.com/216519b87f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav>
+            <div class="logo-title">
+                <img src="images/h4ulogo.jpeg" alt="">
+                 <h1><span>H</span>ackers<span>F</span>or<span>Y</span>ou</h1>
+            </div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#youtube-embed">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#signin">Sign In</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <header id="header">
+                <div class="header-text">
+                    <h1>Welcome to <span style="color: green;">HackersForYou</span></h1> <br>
+                    <p>Hey ! heartly Welcome to our platform which is dedicated to
+                        school and college students to learn and explore Cyber Security and Ethical Hacking from the experts. We are experts in conduting & organizing seminars, webinars,
+                         workshops, classroom program & online tainings and classes. <br><br> Thank You : )</p>
+                </div>
+            <!-- <div class="header-img"> -->
+               <img src="images/aron-van-de-pol-hXOGHaGCtdA-unsplash.jpg" alt="">
+            <!-- </div> -->
+            </header>
+<!-- thought -->
+<div id="thought">
+    <video class="video" autoplay  loop muted  src="images/aboutVideo.mp4"></video>
+    <div class="text">
+        <h3>Begin.., Your Journey with HackersForYou</h3>
+        <h3>and make yourself hacked free</h3>
+    </div>
+</div>
+
+            <!-- -------------------About----------------- -->
+
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img height="400" src="images/scott-rodgerson-G6dXvXN2gVM-unsplash-removebg-preview.png">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About <span>Us</span> </h1>
+                            <p>This platform provide cyber security courses , webinars as well as Internship to student. we collab with other brands for courses, webinars and internship program. we also provide verfied certificates to student which will enhance your CV.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('courses')">Courses</p>
+                                <p class="tab-links" onclick="opentab('webinars')">Webinars</p>
+                                <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="courses">
+                                <ul>
+                                    <li><span>Cloud Computing</span><br>1. Software as a Services <br> 2.Computing platform <br> 3.Virtualization</li>
+                                    <li><span>Security</span><br> Computing Security</li>
+                                    <li><span>Risk Management</span><br>Learn about security of network</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="webinars">
+                                <ul>
+                                    <li><span>SIRT Bhopal</span><br>Cyber Security</li>
+                                    <li><span>Upcoming Webinarx</span><br>Networking</li> 
+                                    <!-- <li><span>UI?UX</span><br>Designing Web/App interfaces</li>  -->
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="internship">
+                                <ul>
+                                    <li><span>Collaboration with CyberHawk</span><br>Internship Program <br></li>
+                                    <!-- <li><span>Rajiv Gandhi Poudyogiki Vishwavidyalaya , Bhopal (MP)</span> <br> Btech in Computer Science & Engineering <br> Batch : 2020 - 2024<br></li> 
+                                     <li><span>UI?UX</span><br>Designing Web/App interfaces</li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">Our Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <h2>Our Mission</h2>
+                            <p>Our mission is to provide the knowledge and skills in Cyber Security and Ethical Hacking. You need to be able to acheive the goal that you deserve. Our main goal and mission to provide education all over the globe.<br><br> Thank You </p>   
+                            <a href="#">learn more</a>
+                        </div>
+                        <div>
+                            <h2>Our Instructor</h2>
+                            <p>We are experts in conducting & organizing seminars, webinars, workshops, classroom & online training and classes. We empower the students to build a safer cyber world so they can get out easily from the cyber crimes.<br><br> Thank You</p>
+                            <a href="#">learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- youtube embed -->
+            <div id="youtube-embed">
+                <div class="container">
+                    <h1 class="sub-title">Watch the latest video here...</h1>
+                    <div class="first">
+                        <iframe  width="500" height="315" src="https://www.youtube.com/embed/Bl9MJM2uZHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe  width="500" height="315" src="https://www.youtube.com/embed/VUZSva8qgDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="second">
+                        <iframe  width="500" height="315" src="https://www.youtube.com/embed/Udde456CTCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe  width="500" height="315" src="https://www.youtube.com/embed/QW_1XIozsc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    </div>
+                    <a href="https://t.me/+o9NKhpDVlh4yYzg1" class="btn">Join Our Community</a>
+                 </div>
+
+                 <!-- footer -->
+                 <div id="footer">
+                    <div class="container">
+                      <div class="text">
+                        <h2>HackersForYou</h2>
+                        <h5>copyright © 2023 HackersForYou,Inc.</h5>
+                        <div class="bottom">
+                            <a href="">Legal Stuff</a>
+                            <a href="">Privacy Policy.</a>
+                            <a href="">Security</a>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+
+                
+                 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+                 integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"
+                 integrity="sha512-VJ/iYbiu1eJ6yLimfTi65t2R9TFcG5D9X8ZCfbbEFhTfPnKJh8byoKXEawi5ScJZBYL1eiirL1+MczZDx0Tz9Q=="
+                 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
+                 integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw=="
+                 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"
+                 integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg=="
+                 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
+                 integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
+                 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
      <link rel="icon" href="images/h4ulogo.jpeg">
     <title>HackersForYou</title>
     <script src="https://kit.fontawesome.com/216519b87f.js" crossorigin="anonymous"></script>
@@ -176,4 +339,4 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
-</html>
+</html> -->
