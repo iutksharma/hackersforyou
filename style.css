@@ -648,6 +648,9 @@ height: 80vh;
                 margin-left: 4%;
                 width: 90%;
             }
+        .signin-box a{
+                margin-left: 100px;
+            }
             .login-box{
                 margin-top: 30%;
                 margin-left: -100%;
