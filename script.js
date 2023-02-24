@@ -13,6 +13,9 @@ function opentab(tabname){
 }
 
 
+
+  
+
 //  responsive one 
 
 var sidemenu = document.getElementById("sidemenu");
@@ -23,30 +26,30 @@ function closemenu(){
     sidemenu.style.right = "-200px"
 }
 
-
 function validate() {
-    var signinEmail = document.getElementById("signin-email").value;
-    var signinPassword = document.getElementById("signin-password").value;
-    var signinNumber = document.getElementById("signin-number").value;
-    var signinName = document.getElementById("signin-name").value;
-  
-    if (signinEmail == "" || signinPassword == "" || signinNumber == "" || signinName == "") {
-      alert("Please fill in all fields.");
-      return false;
-    } else {
-      alert("You have successfully signed in!");
-    }
-  }
+  var signinEmail = document.getElementById("signin-email").value;
+  var signinPassword = document.getElementById("signin-password").value;
+  var signinNumber = document.getElementById("signin-number").value;
+  var signinName = document.getElementById("signin-name").value;
 
-  const loginForm = document.querySelector('#login-form');
+  if (signinEmail == "" || signinPassword == "" || signinNumber == "" || signinName == "") {
+    alert("Please fill in all fields.");
+    return false;
+  } else {
+    alert("You have successfully signed in!");
+  }
+}
+
+
+const loginForm = document.querySelector('#login-form');
 
 loginForm.addEventListener('submit', function(event) {
-  event.preventDefault();
+event.preventDefault();
 
-  const email = form.elements['email'].value;
-  const password = form.elements['password'].value;
+const email = form.elements['email'].value;
+const password = form.elements['password'].value;
 
-  // Do something with email and password, like sending them to a server for verification
+// Do something with email and password, like sending them to a server for verification
 });
 
 //contact - backend
@@ -65,16 +68,4 @@ form.addEventListener('submit', e => {
         form.reset();
     })
     .catch(error => console.error('Error!', error.message))
-})
-
-// animation 
-
-$('.header-text h1').textillate({
-	in:{
-		effect:'bounceIn'
-	},
-	loop : true,
-	out:{
-		effect:'fadeInRight'
-	}
 })
