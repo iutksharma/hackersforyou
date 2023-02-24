@@ -12,6 +12,32 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab")
 }
 
+
+function validate() {
+    var signinEmail = document.getElementById("signin-email").value;
+    var signinPassword = document.getElementById("signin-password").value;
+    var signinNumber = document.getElementById("signin-number").value;
+    var signinName = document.getElementById("signin-name").value;
+  
+    if (signinEmail == "" || signinPassword == "" || signinNumber == "" || signinName == "") {
+      alert("Please fill in all fields.");
+      return false;
+    } else {
+      alert("You have successfully signed in!");
+    }
+  }
+
+  const loginForm = document.querySelector('form');
+
+loginForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const email = form.elements['email'].value;
+  const password = form.elements['password'].value;
+
+  // Do something with email and password, like sending them to a server for verification
+});
+
 //  responsive one 
 
 var sidemenu = document.getElementById("sidemenu");
