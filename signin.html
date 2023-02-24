@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+     <link rel="icon" href="images/h4ulogo.jpeg">
+    <title>HackersForYou</title>
+    <script src="https://kit.fontawesome.com/216519b87f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+<div class="signin-main">
+    <video autoplay loop muted  >
+        <source src="images/Network_R.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    <div class="signin-box">
+        <h3>HackersForYou always welcome you</h3>
+        <h2>Register your account</h2>
+        <form id="signin-form">
+            <label for="name">Name: </label>
+            <input type="text" placeholder="Enter your Name" id="signin-name" required>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter HackersForYou id" id="signin-email" required>
+            <label for="number">Number:</label>
+            <input type="tel" placeholder="Enter your Contact Number" id="signin-number">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter Password" id="signin-password" required>
+            <a href="login.html">Account Already Exist?</a>
+            <button type="submit" onclick="validate()">Sign In</button>
+        </form>
+    </div> 
+</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
