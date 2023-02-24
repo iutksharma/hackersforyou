@@ -13,6 +13,17 @@ function opentab(tabname){
 }
 
 
+//  responsive one 
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0"
+}
+function closemenu(){
+    sidemenu.style.right = "-200px"
+}
+
+
 function validate() {
     var signinEmail = document.getElementById("signin-email").value;
     var signinPassword = document.getElementById("signin-password").value;
@@ -27,7 +38,7 @@ function validate() {
     }
   }
 
-  const loginForm = document.querySelector('form');
+  const loginForm = document.querySelector('#login-form');
 
 loginForm.addEventListener('submit', function(event) {
   event.preventDefault();
@@ -37,16 +48,6 @@ loginForm.addEventListener('submit', function(event) {
 
   // Do something with email and password, like sending them to a server for verification
 });
-
-//  responsive one 
-
-var sidemenu = document.getElementById("sidemenu");
-function openmenu(){
-    sidemenu.style.right = "0"
-}
-function closemenu(){
-    sidemenu.style.right = "-200px"
-}
 
 //contact - backend
 
