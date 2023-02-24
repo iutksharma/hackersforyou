@@ -370,6 +370,124 @@ form .btn.btn2{
     margin-top: 15px;
     cursor: pointer;
 }
+
+.signin-main{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+   
+    .signin-main video{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+    }
+    .signin-box {
+        z-index: 1;
+        margin-left: -70%;
+       width: 40%;
+       height: 100%;       
+       background-color: #08080844;
+    }
+    
+   .signin-box h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .signin-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    
+    #signin-form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%; 
+    }
+    label{
+        color: #f1f1f1;
+    }
+    .signin-box a{
+        margin-top: 10px;
+        margin-left: 20%;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+    
+    button {
+        width: 100%;
+        background-color:  #18a41f;
+        color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+    
+
+
+    .login-main{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+   
+    .login-main video{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+    }
+    .login-box {
+        z-index: 1;
+        margin-left: -70%;
+       width: 40%;
+       height: 100%;       
+       background-color: #08080844;
+    }
+    
+   .login-box h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .login-box h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    
+    #login-form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%;
+        
+    }
+    label{
+        color: #f1f1f1;
+    }
+    .login-box a{
+        margin-top: 10px;
+        margin-left: 29%;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+    
+    button {
+        width: 100%;
+        background-color:  #18a41f;
+        color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
 nav .fa-solid{
     display: none;
     }
@@ -519,6 +637,26 @@ height: 80vh;
                 width: 70vw;
                 display: flex;
                 justify-content: space-between;
+            }
+         .signin-box{
+                margin-top: 30%;
+                margin-left: -100%;
+                width: 100%;
+                height: 70%;
+            }
+            #signin-form{
+                margin-left: 4%;
+                width: 90%;
+            }
+            .login-box{
+                margin-top: 30%;
+                margin-left: -100%;
+                width: 100%;
+                height: 70%;
+            }
+            #login-form{
+                margin-left: 4%;
+                width: 90%;
             }
     }
     #msg{
